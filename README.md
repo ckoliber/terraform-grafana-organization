@@ -1,8 +1,8 @@
 # Terraform Grafana Organization
 
 ![pipeline](https://github.com/cktf/terraform-grafana-organization/actions/workflows/cicd.yml/badge.svg)
-![release](https://img.shields.io/github/v/release/cktf/terraform-gitlab-organization?display_name=tag)
-![license](https://img.shields.io/github/license/cktf/terraform-gitlab-organization)
+![release](https://img.shields.io/github/v/release/cktf/terraform-grafana-organization?display_name=tag)
+![license](https://img.shields.io/github/license/cktf/terraform-grafana-organization)
 
 **Organization** is a Terraform module useful for creating multiple teams, folders, dashboards, and datasources in **Grafana**
 

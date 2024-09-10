@@ -49,8 +49,9 @@ variable "members" {
 
 variable "teams" {
   type = map(object({
-    name  = string
-    email = optional(string)
+    name    = string
+    email   = optional(string)
+    members = optional(list(string), [])
   }))
   default     = {}
   sensitive   = false

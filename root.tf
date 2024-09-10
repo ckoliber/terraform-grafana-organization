@@ -10,5 +10,5 @@ resource "grafana_organization" "this" {
 }
 
 locals {
-  org_id = coalesce(var.id, grafana_organization.this[0].id)
+  org_id = try(grafana_organization.this[0].id, var.id)
 }

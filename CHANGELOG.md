@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/cktf/terraform-grafana-organization/compare/1.0.0...1.1.0) (2024-09-10)
+
+
+### Bug Fixes
+
+* change organization optional rule ([6e3254c](https://github.com/cktf/terraform-grafana-organization/commit/6e3254c6bdb41ba059a9e4264cc419802d9a679a))
+
+
+### Features
+
+* add team members ([d6bbcb5](https://github.com/cktf/terraform-grafana-organization/commit/d6bbcb512256ad6413a099033233f577fbf00483))
+
 # 1.0.0 (2024-08-31)
 
 

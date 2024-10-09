@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/cktf/terraform-grafana-organization/compare/1.1.0...1.1.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* upgrade CI/CD ([55cdc42](https://github.com/cktf/terraform-grafana-organization/commit/55cdc429d83069f280c2f8f96ffdea2f865a62d2))
+
 # [1.1.0](https://github.com/cktf/terraform-grafana-organization/compare/1.0.0...1.1.0) (2024-09-10)
 
 

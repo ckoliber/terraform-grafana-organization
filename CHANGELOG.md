@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/cktf/terraform-grafana-organization/compare/1.1.1...1.2.0) (2025-02-22)
+
+
+### Features
+
+* add new CI ([01126df](https://github.com/cktf/terraform-grafana-organization/commit/01126dfc6525df7e1cb7d38b20d2d2115b25dafb))
+
 ## [1.1.1](https://github.com/cktf/terraform-grafana-organization/compare/1.1.0...1.1.1) (2024-10-09)
 
 

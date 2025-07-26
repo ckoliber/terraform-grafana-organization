@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ckoliber/terraform-grafana-organization/compare/1.2.0...1.3.0) (2025-07-26)
+
+
+### Features
+
+* transfer project from cktf to ckoliber ([2501656](https://github.com/ckoliber/terraform-grafana-organization/commit/250165639cbfada33eaf3d31dc1a02e735a832aa))
+
 # [1.2.0](https://github.com/ckoliber/terraform-grafana-organization/compare/1.1.1...1.2.0) (2025-02-22)
 
 

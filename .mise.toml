@@ -1,0 +1,16 @@
+[env]
+GIT_CLIFF_CONFIG = "{{ config_root }}/.github/cliff.toml"
+
+[tools]
+gh = "2.92.0"
+git-cliff = "2.13.1"
+terraform = "1.15.3"
+
+[tasks.init]
+run = "terraform init"
+
+[tasks.test]
+run = "terraform fmt -check && terraform validate -no-color"
+
+[tasks.release]
+file = ".github/release.sh"

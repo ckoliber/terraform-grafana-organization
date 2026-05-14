@@ -1,5 +1,19 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended"],
-    "enabledManagers": ["terraform", "github-actions"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":dependencyDashboard"],
+  "enabledManagers": ["mise", "terraform", "github-actions"],
+  "packageRules": [
+    {
+      "description": "Automerge minor and patch updates after one day",
+      "matchUpdateTypes": ["minor", "patch"],
+      "minimumReleaseAge": "1 days",
+      "automerge": true
+    },
+    {
+      "description": "Automerge all GitHub Actions updates after one day",
+      "matchManagers": ["github-actions"],
+      "minimumReleaseAge": "1 days",
+      "automerge": true
+    }
+  ]
 }

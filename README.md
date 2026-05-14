@@ -62,4 +62,4 @@ Please make sure to update tests as appropriate.
 ## License
 
 This project is licensed under the [MIT](LICENSE.md).  
-Copyright (c) KoLiBer (koliberr136a1@gmail.com)
+Copyright (c) Hoomaan (ckoliber@gmail.com)

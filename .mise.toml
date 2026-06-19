@@ -2,7 +2,7 @@
 GIT_CLIFF_CONFIG = "{{ config_root }}/.github/cliff.toml"
 
 [tools]
-gh = "2.94.0"
+gh = "2.95.0"
 git-cliff = "2.13.1"
 terraform = "1.15.6"
 

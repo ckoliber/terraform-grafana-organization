@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
       - uses: jdx/mise-action@v4
         with:
-          version: 2026.8.4
+          version: 2026.8.5
       - uses: actions/cache@v6
         with:
           path: .terraform/

@@ -4,7 +4,7 @@ GIT_CLIFF_CONFIG = "{{ config_root }}/.github/cliff.toml"
 [tools]
 gh = "2.97.0"
 git-cliff = "2.13.1"
-terraform = "1.15.8"
+terraform = "1.15.9"
 
 [tasks.init]
 run = "terraform init"

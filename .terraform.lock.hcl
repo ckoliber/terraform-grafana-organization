@@ -3,22 +3,12 @@
 
 provider "registry.terraform.io/grafana/grafana" {
   version     = "3.25.9"
-  constraints = ">= 3.0.0"
+  constraints = ">= 3.0.0, < 4.0.0"
   hashes = [
     "h1:5fXaauPL+gsUJAtGiPebhvPors/QNB1NYKK5wiLDGjM=",
-    "h1:AvTZROjSfOmkx2s7HODHTV42vYHT+CqDzkrQYFjXnE8=",
-    "h1:Km1ENNsGy1QmLBIpxI3q2QaADWT94xQ7CheJuDXtEio=",
     "h1:Mr94xUwSKxLJxWxd/zed2K2xb57zE/+18uhIuo5/k44=",
-    "h1:S4B9LJ3cFruekMLvoX/GGNX2NbgXrKojACkVBfhL/Ms=",
-    "h1:Uca8BsavyPTPGaH3OlhkMhYSEzyICUQGMwLuEOz6lPc=",
-    "h1:XYBJv5TPq1cAR0IQ300EbCzOumQs33FAbyx/d0jACUY=",
-    "h1:YWrEGcws1JufVyHpYXwxI2UGyJUemhQKukq6nHKJPpU=",
-    "h1:aPMyxdQYLjdgLrWnR3ueNjPmUVqym5WsbfhlrzLzw8c=",
     "h1:ddQjGuxcMvrxB2bHBgC5SHI+ueo7KvnZhNRW/5+Nnh4=",
     "h1:m19AUS7s6DUOawfYD4OSEXVqxjp7OG/i8ArjcxCDIW0=",
-    "h1:m7YN3Q3Trdkpo2IzvNBZsYzltKbTgBCBtRNOyWcTJ2A=",
-    "h1:nNGW1JcrxYZeWO0uKDC6EGvIeKFUb6MZQpIViEtwnD4=",
-    "h1:uwRkqjMUwP9SP8AexJJHwCG5u8DLMTXmWQt4fEK+MJk=",
     "zh:052dd83cbf794d6a0c41ef6262286063d64c7b2107f3a6b1b81e679303072759",
     "zh:117092dfc73619621eb48046934ef14c09e4419fc6d5bab35bff7549eac905fb",
     "zh:153952d2f01812cada014905852c8a03fb68a204b98a533b81830e923bf69848",

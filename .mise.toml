@@ -1,0 +1,7 @@
+include = [
+  "git::https://github.com/ckoliber/.github.git//always.toml?ref=main",
+  "git::https://github.com/ckoliber/.github.git//terraform.toml?ref=main",
+]
+task_config.includes = [
+  "git::https://github.com/ckoliber/.github.git//tasks?ref=main",
+]
